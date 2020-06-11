@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\RpacUI;
+namespace App\Http\Controllers\Rpac;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

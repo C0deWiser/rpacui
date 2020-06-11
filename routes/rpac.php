@@ -16,7 +16,7 @@ Route::get('/rpac-ui/{vue?}', function () {
     return view('rpacui::rpac');
 })->middleware(['web', 'auth'])->name('rpac')->where('vue', '[a-z0-9_\.\-\/]*');
 
-Route::namespace('Codewiser\RpacUI\Controllers')->prefix('rpac')->middleware(['api', 'auth:api'])->group(function () {
+Route::namespace('App\Http\Controllers\Rpac')->prefix('rpac')->middleware(['api', 'auth:api'])->group(function () {
     Route::resource('users', 'UserController');
     Route::resource('roles', 'RoleController');
 });

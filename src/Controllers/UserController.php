@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\RpacUI;
+namespace App\Http\Controllers\Rpac;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\User;

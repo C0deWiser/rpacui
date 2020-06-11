@@ -31,7 +31,7 @@ Publish the package files to your app using terminal:
 ### Settings
 
 Set policies for User and Roles in RPAC (see RPAC-instructions).
-Customizing controllers (in App\Http\Rpac\Controllers), if you need.
+Customizing controllers (in App\Http\Controllers\Rpac), if you need.
 
 ### Usage
 
