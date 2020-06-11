@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "codewiser/rpac": "^1.0"
+        "codewiser/rpac": "^1.5"
     },
     "autoload": {
         "psr-4": {
