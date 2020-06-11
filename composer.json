@@ -1,6 +1,6 @@
 {
     "name": "codewiser/rpacui",
-    "version": "0.0.1",
+    "version": "1.5.1",
     "description": "UI for [R.P.A.C.]",
     "keywords": ["roles", "permissions", "rpac", "rbac", "acl", "auth", "laravel", "illuminate"],
     "license": "MIT",
@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "codewiser/rpac": "^1.0"
+        "codewiser/rpac": "^1.5"
     },
     "autoload": {
         "psr-4": {
