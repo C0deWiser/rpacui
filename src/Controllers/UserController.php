@@ -93,7 +93,7 @@ class UserController extends Controller
             unset($data['roles']);
         }
 
-        if(isset($data['password'])) {
+        if($request->has('password')) {
             if(trim($data['password'])) {
                 $password = $data['password'];
                 $data['password'] = bcrypt($password);
